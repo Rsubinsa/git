@@ -1,0 +1,8 @@
+a=(" R.NO : ", " NAME : ", " TOTAL = ")
+b=(123,'ramya',50)
+tuple1=zip(a,b)
+print(tuple(tuple1))
+list1=zip(a,b)
+print(list(list1))
+dict1=zip(a,b)
+print(dict(dict1))
